@@ -37,15 +37,15 @@ fi
 if [[$CALCULATOR 2 - 1 -ne 1]]; then
   echo 'ERROR! 2 - 1 failed to produce 1!'
   exit 1
-
+fi
 
 if [[$CALCULATOR 2 / 2 -ne 1]]; then
   echo 'ERROR! 2 / 2 failed to produce 1'
   exit 1
-
+fi
 
 if [[$CALCULATOR 2 * 2 -ne 4]]; then
   echo 'ERROR! 2 * 2 failed to produce 4'
   exit 1
-
+fi
   
