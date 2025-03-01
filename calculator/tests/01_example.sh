@@ -5,7 +5,6 @@ CALCULATOR=$1
 
 echo "We've set up a GitHub Actions Workflow that will run all"
 echo "of the shell scripts in this directory as a series of tests."
-echo
 echo "To fail any test, you should use the exit 1 command;"
 echo "To end a test early as a success, you should use the exit 0 command."
 
